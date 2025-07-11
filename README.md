@@ -130,12 +130,6 @@ The project uses Tailwind CSS with a custom design system. Colors and spacing ar
 ### Adding Products
 Products are currently managed in `src/data/products.ts`. For a production environment, integrate with a headless CMS or e-commerce API.
 
-### Environment Variables
-Create a `.env` file for environment-specific configurations:
-```env
-VITE_API_URL=your_api_url
-VITE_STRIPE_PUBLIC_KEY=your_stripe_key
-```
 
 ## Development Guidelines
 
@@ -188,9 +182,6 @@ VITE_STRIPE_PUBLIC_KEY=your_stripe_key
 - Safari (latest)
 - Edge (latest)
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
