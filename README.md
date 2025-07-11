@@ -147,17 +147,12 @@ Products are currently managed in `src/data/products.ts`. For a production envir
 
 ## Deployment
 
-### Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Configure build settings:
-   - Build command: `npm run build`
-   - Output directory: `dist`
-3. Deploy automatically on push to main branch
-
 ### Netlify
 1. Connect repository to Netlify
 2. Set build command: `npm run build`
 3. Set publish directory: `dist`
+
+Deployed on netlify and has the URL: https://my-ecomme.netlify.app/
 
 
 ## Contributing
